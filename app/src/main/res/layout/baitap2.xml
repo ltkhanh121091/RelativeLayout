@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/texviewjava"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#000077"
+        android:text="JavaCoBan"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:textColor="#FFFFFF"
+        android:background="#FF0000"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/texviewjava"
+        android:text="Top Content Here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textsecond"
+        android:layout_centerInParent="true"
+        android:background="#4876FF"
+        android:textSize="25sp"
+        android:text="Second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="18dp"
+        android:layout_toLeftOf="@+id/textsecond"
+        android:background="#00FF00"
+        android:text="Frist"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/textsecond"
+        android:background="#F4A460"
+        android:text="Three"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Bottom Content Here"
+        android:textSize="25sp"
+        android:background="#CDC9C9"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
+
